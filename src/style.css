@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #23252C;
+    color: #ffffff;
+    font-family: 'Inter',
+    sans-serif;
+}
+
+.container{
+    background-color:#1A1B21;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.info--img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    
+}
+
+.info--title{
+    margin: 21px 0 6px 0;
+}
+
+.info--role{
+    color: #f3bf99;
+    font-size: 0.9em;
+    margin-bottom: 9px;
+}
+
+.info--site{
+    margin-bottom: 15px;
+}
+.info--site a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.info--site svg{
+    position: relative;
+    top: 2px;
+    margin: 4px 5px auto auto;
+}
+
+.buttons{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.info--button {
+    width: 85px;
+    height: 34px;
+    border-radius: 8px;
+}
+
+.info--button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.info--button svg {
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+
+.info--button:hover,
+.info--button:focus{
+    background-color: #b9b4b4;
+}
+
+.info--linkedin{
+    background-color: #5093e2;
+    color: #ffffff;
+    border-color: #5093e2;
+}
+
+.info--linkedin > svg{
+    position: relative;
+    top: 1px;
+}
+
+.info--linkedin:hover,
+.info--linkedin:focus {
+    background-color: #2275d4;
+    color: #ffffff;
+}
+
+
+.about-me{
+    margin: 0 34px 44px 34px;
+}
+
+.about{
+    margin-bottom: 1.5em  ;
+}
+
+.about h2{
+    margin-bottom: 10px;
+}
+
+.about p{
+    line-height: 1.5em;
+}
+
+
+.interests h2 {
+    margin-bottom: 10px;
+}
+
+.interests p {
+    line-height: 1.5em;
+}
+
+
+
+/* Footer */
+.footer{
+    color: #918e9b;
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    padding-bottom: 2em;
+}
+
+footer a {
+    color: #918e9b;
+    text-decoration: none;
+}
+
+.footer svg{
+    width: 2em;
+    height: 2em;
+}
+
+.footer svg:hover,
+.footer svg:focus{
+    color: #5b5b5c;
+}
